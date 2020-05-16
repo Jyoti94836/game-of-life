@@ -1,6 +1,6 @@
 node{
     stage('scm'){
-        git 'https://github.com/Jyoti94836/jenkins-project.git'
+        git 'https://github.com/Jyoti94836/game-of-life.git'
     }
     stage('build'){
         sh 'mvn package'
